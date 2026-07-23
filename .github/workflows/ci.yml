@@ -1,13 +1,13 @@
-name: Muscab CICD Workflow
+# name: Muscab CICD Workflow
 
-on: [push]
+# on: [push]
 
-jobs:
-  build:
-   runs-on: ubuntu-latest
-   steps:
-     - name: checkout code
-       uses: actions/checkout@v4
-     - name: We are testing 
-       run: echo "hello everyone my first pipeline"
+# jobs:
+#   build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: checkout code
+#        uses: actions/checkout@v4
+#      - name: We are testing 
+#        run: echo "hello everyone my first pipeline"
       
